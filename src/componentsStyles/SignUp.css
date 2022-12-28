@@ -1,0 +1,100 @@
+.sign-up-page-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(rgba(0, 0, 0, 0.378), rgba(0, 0, 0, 0.303)),
+  url("../assets/signUpBackground.jpg");
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+
+.sign-up-page-container h1 {
+  font-size: 4em;
+  font-weight: 300;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.sign-up-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40vw;
+  height: fit-content;
+  padding: 1em 2em;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  margin: 10vh 0px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.133);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.form-section input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.341);
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  margin-top: 5px;
+  color: white;
+}
+.sign-up-form-container button {
+  padding: 5px;
+  width: 30%;
+  height: 30px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px 0px 0px;
+  transition: 0.15s box-shadow ease;
+}
+.sign-up-form-container button:hover {
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+}
+.sign-up-form-container h6 {
+  font-weight: 200;
+  font-size: 0.4em;
+  margin: 10px 0px 0px 0px;
+  align-self: center;
+  color: rgba(255, 255, 255, 0.423);
+}
+@media screen and (max-width: 768px) {
+  .sign-up-form-container {
+    width: 100%;
+  }
+}

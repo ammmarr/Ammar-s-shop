@@ -1,0 +1,82 @@
+.cart-container {
+  width: 100%;
+  height: fit-content;
+
+  margin-top: 15vh;
+  margin-bottom: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5vw;
+}
+.cart-container h2 {
+  font-weight: 200;
+  font-size: 3em;
+  margin: 10vh 0px 5vh 0px;
+}
+.cart-container h3{
+  font-weight: 400;
+  margin: 10vh auto 30vh auto;
+  color: rgba(201, 42, 42, 0.919);
+  letter-spacing: 5px;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10vh;
+  margin-top: 2vh;
+  border-top: 1px solid black;
+  border-radius: 2px;
+  padding: 10vh 2vw;
+}
+.cart-item-section {
+  flex: 1;
+  position: relative;
+}
+.cart-item-section2{
+    display: flex;
+    align-items: center;
+    
+    gap: 0px 20px;
+    flex: 1;
+}
+.cart-item-section-icon{
+    flex: 0.2;
+    cursor: pointer;
+}
+.quantity-selection{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.cart-item-section-right h4{
+  float: right;
+  
+ 
+  
+
+}
+.quantity-selection button{
+  cursor: pointer;
+  width: 2em;
+  font-size: 1.5em;
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  background-color: transparent;
+  transition: ease-in-out all 0.2s;
+}
+.quantity-selection button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.019);
+}
+
+.cart-item img{
+    width: 20%;
+    
+}
