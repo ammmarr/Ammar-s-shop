@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Header from "../components/Header";
 import "../componentsStyles/aboutMe.css";
@@ -20,7 +21,7 @@ function AboutMePage() {
             apps like this one,this application was built using react-redux and
             react-router-dom v6 and of course react.js,HTML and CSS.If you like
             it there are alot more coming soon. you can check my
-            <a href="https://ammmarr.github.io/personal/" target="_blank">
+            <a href="https://ammmarr.github.io/personal/" target="_blank" rel="noreferrer">
               Personal portfolio
             </a>
             to check my availability work you can contact me via{" "}
