@@ -1,10 +1,13 @@
 {
+  "homepage": "https://ammmarr.github.io/ammar-s-shop",
   "name": "app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -14,6 +17,7 @@
     "@mui/icons-material": "^5.10.15",
     "@reduxjs/toolkit": "^1.9.1",
     "firebase": "^9.15.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
