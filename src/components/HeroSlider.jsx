@@ -4,6 +4,7 @@ import Wrapper from "../components/Wrapper";
 import HeroSliderData from "../data/heroslider";
 import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 import ArrowForwardIosNewOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
+
 const HeroSlider = () => {
   const [slider, setSlider] = useState(null);
 

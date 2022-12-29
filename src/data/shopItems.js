@@ -1,6 +1,19 @@
+import Image1 from "../src/assets/shopImages/shopImage (1).jpg"
+import Image2 from "../src/assets/shopImages/shopImage (2).jpg"
+import Image3 from "../src/assets/shopImages/shopImage (3).jpg"
+import Image4 from "../src/assets/shopImages/shopImage (4).jpg"
+import Image5 from "../src/assets/shopImages/shopImage (5).jpg"
+import Image6 from "../src/assets/shopImages/shopImage (6).jpg"
+import Image7 from "../src/assets/shopImages/shopImage (7).jpg"
+import Image8 from "../src/assets/shopImages/shopImage (8).jpg"
+import Image9 from "../src/assets/shopImages/shopImage (9).jpg"
+
+
+
+
 const   shopItems = [
   {
-    img: "../src/assets/shopImages/shopImage (1).jpg",
+    img: Image1,
     name: "Thin Vase",
     price: "75",
     category: "decoration",
@@ -8,7 +21,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (2).jpg",
+    img: Image2,
     name: "Neon Lamp",
     price: "175",
     category: "decoration",
@@ -16,7 +29,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (3).jpg",
+    img: Image3,
     name: "Wide Carbon Vase",
     price: "120",
     category: "decoration",
@@ -24,7 +37,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (4).jpg",
+    img: Image4,
     name: "Hand made wooden stand",
     price: "399",
     category: "furniture",
@@ -32,7 +45,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (5).jpg",
+    img: Image5,
     name: "Aethetic Couch",
     price: "999",
     category: "furniture",
@@ -40,7 +53,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (6).jpg",
+    img: Image6,
     name: "Minimal Coffee Table",
     price: "299",
     category: "furniture",
@@ -48,7 +61,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (7).jpg",
+    img: Image7,
     name: "aethetic Old Style Vase",
     price: "199",
     category: "furniture",
@@ -56,7 +69,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (8).jpg",
+    img: Image8,
     name: "Leather Chair",
     price: "1999",
     category: "furniture",
@@ -64,7 +77,7 @@ const   shopItems = [
     quantity: 1,
   },
   {
-    img: "../src/assets/shopImages/shopimage (9).jpg",
+    img: Image9,
     name: "Wooden Terasse Chair",
     price: "499",
     category: "furniture",

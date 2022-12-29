@@ -1,13 +1,20 @@
+import HeroSliderimg1 from "../src/assets/slideImg (6).jpg";
+import HeroSliderimg2 from "../src/assets/slideImg (4).jpg";
+import HeroSliderimg3 from "../src/assets/slideImg (5).jpg";
+
+
+
+
 const heroslider = [
   {
-    img : "../src/assets/slideImg (6).jpg",
+    img : HeroSliderimg1,
     id: "1",
     type: "Furniture",
     h1: "MINIMAL INTERIOR",
     desc: "oakomdlkjadsnfklnlkfda kjjansfldkn kanlck alk kj  ja dljk fljas dfla dsldasj"
   },
   {
-    img : "../src/assets/slideImg (4).jpg",
+    img : HeroSliderimg2,
     id: "2",
     type: "DECORATION",
     h1: "Superior Living",
@@ -15,7 +22,7 @@ const heroslider = [
   },
 
   {
-    img : "../src/assets/slideImg (5).jpg",
+    img : HeroSliderimg3,
     id: "3",
     type: "Aethetics",
     h1: "Visual comfort",

@@ -12,7 +12,7 @@ import SignUpPage from "./pages/SignUpPAGE";
 
 const App = () => {
   return (
-    <BrowserRouter basename="ammar-s-shop">
+    <BrowserRouter basename="/ammar-s-shop">
       <Routes>
         <Route path="/" element={<Home />} ></Route>
         <Route path="cart" element={<CartPage />} />
