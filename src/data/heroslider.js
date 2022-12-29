@@ -1,8 +1,6 @@
-import HeroSliderimg1 from "../src/assets/slideImg (6).jpg";
-import HeroSliderimg2 from "../src/assets/slideImg (4).jpg";
-import HeroSliderimg3 from "../src/assets/slideImg (5).jpg";
-
-
+import HeroSliderimg1 from "../assets/slideimg (4).jpg"
+import HeroSliderimg2 from "../assets/slideimg (5).jpg"
+import HeroSliderimg3 from "../assets/slideimg (6).jpg"
 
 
 const heroslider = [

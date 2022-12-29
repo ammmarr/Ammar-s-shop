@@ -1,12 +1,12 @@
-import Image1 from "../src/assets/shopImages/shopImage (1).jpg"
-import Image2 from "../src/assets/shopImages/shopImage (2).jpg"
-import Image3 from "../src/assets/shopImages/shopImage (3).jpg"
-import Image4 from "../src/assets/shopImages/shopImage (4).jpg"
-import Image5 from "../src/assets/shopImages/shopImage (5).jpg"
-import Image6 from "../src/assets/shopImages/shopImage (6).jpg"
-import Image7 from "../src/assets/shopImages/shopImage (7).jpg"
-import Image8 from "../src/assets/shopImages/shopImage (8).jpg"
-import Image9 from "../src/assets/shopImages/shopImage (9).jpg"
+import Image1 from "../assets/shopImages/shopimg (1).jpg"
+import Image2 from "../assets/shopImages/shopimg (2).jpg"
+import Image3 from "../assets/shopImages/shopimg (3).jpg"
+import Image4 from "../assets/shopImages/shopimg (4).jpg"
+import Image5 from "../assets/shopImages/shopimg (5).jpg"
+import Image6 from "../assets/shopImages/shopimg (6).jpg"
+import Image7 from "../assets/shopImages/shopimg (7).jpg"
+import Image8 from "../assets/shopImages/shopimg (8).jpg"
+import Image9 from "../assets/shopImages/shopimg (9).jpg"
 
 
 
