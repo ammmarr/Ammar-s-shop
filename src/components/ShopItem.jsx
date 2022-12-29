@@ -42,7 +42,7 @@ const ShopItem = (props) => {
   return (
     <div className="shop-item-container" key={props.price}>
       <Link
-        to={`/${props.id}`}
+        to={`/product/${props.id}`}
         style={{ textDecoration: "none", color: "black" }}
       >
         <div className="image-wrapper">

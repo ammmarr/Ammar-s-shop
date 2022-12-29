@@ -16,6 +16,7 @@ export default function HeroProduct(){
     const {productId} = useParams()
 
     const product = shopItems.find(product => product.id == productId)
+
   
     const cartItems = useSelector(state=> state.cart.itemsList)
 

@@ -1,4 +1,4 @@
-const shopItems = [
+const   shopItems = [
   {
     img: "../src/assets/shopImages/shopImage (1).jpg",
     name: "Thin Vase",

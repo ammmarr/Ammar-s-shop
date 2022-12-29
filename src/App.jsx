@@ -12,15 +12,16 @@ import SignUpPage from "./pages/SignUpPAGE";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="ammar-s-shop">
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="Cart" element={<CartPage />} />
-        <Route path="Shop" element={<ShopPage />} />
-        <Route path="/:productId" element={<ProductPage />} />
-        <Route path="LogIn" element={<LogInPage />} />
-        <Route path="SignUP" element={<SignUpPage />} />
-        <Route path="/Me" element={<AboutMePage /> } />
+        <Route path="/" element={<Home />} ></Route>
+        <Route path="cart" element={<CartPage />} />
+        <Route path="shop" element={<ShopPage />} />
+        <Route path="product/:productId" element={<ProductPage />} />
+        <Route path="logIn" element={<LogInPage />} />
+        <Route path="signUP" element={<SignUpPage />} />
+        <Route path="me" element={<AboutMePage /> } />
+        
       </Routes>
     </BrowserRouter>
   );
