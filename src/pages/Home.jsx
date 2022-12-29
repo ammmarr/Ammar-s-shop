@@ -24,7 +24,6 @@ useEffect(() => {
         window.removeEventListener('scroll', handleScroll);
     };
 }, []);
-console.log(scrollPosition)
 
   
 
